@@ -1,0 +1,1 @@
+In this repository you will find the projects corresponding to the Responsive Web Design course from freeCodeCamp. I claim no rights over them. I wrote everything in these documents but the process was guided by the webpage system. 
