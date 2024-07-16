@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+  <!-- Head and css reference -->
+  <head>
+    <meta charset="UTF-8">
+    <title>Your tunes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+<!-- Body -->
+  <body>
+    <main>
+
+      <!-- > Title and description -->
+      <h1 id="title"> Your tune </h1>
+      <p id="description">We love music and we know you do too. Tell us a little about yourself and we'll curate a unique playlist for you.</p>
+
+      <!--Form -->
+
+      <form id="survey-form">
+
+        <fieldset id="contact-info">
+
+        <label id="name-label">What's your name?<input id="name" type="text" required placeholder="Name"</input></label>
+      
+
+        <label id="email-label">What's your e-mail?<input id="email" type="email" required placeholder="your@email.com"></input></label>
+
+        <label id="number-label">What's your number?<input id="number" type="number" min="5500000000" max = "5599999999" placeholder="55 0000 0000"></input></label>
+
+        </fieldset>
+
+<fieldset id = "music-info">
+        <!-- Dropdown menu -->
+        <select id="dropdown">
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+
+        <input type = "radio" name = "A" value = "A"> A</input>
+        <input type = "radio" name = "A" value ="B"> B</input>
+
+        <input type="checkbox" value="1"></input>
+        <input type="checkbox" value="1"></input>
+</fieldset>
+
+<fieldset id="legalese">
+        <textarea>Write something here</textarea>
+
+        <input id="submit" type="submit"></input>
+</fieldset>
+
+
+      </form>
+
+    </main>
+  </body>
