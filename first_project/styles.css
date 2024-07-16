@@ -1,0 +1,39 @@
+body{
+  width: 100%;
+  margin: 10px;
+  font-family: tahoma;
+  background-color: rgb(50, 150, 100);
+}
+
+h1, p {
+  text-align: center;
+  margin:2em;
+  color: rgba(200,200,150,43);
+}
+
+form{
+  width: 100%;
+}
+
+fieldset{
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding: 2rem 0;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline{
+  width: unset;
+}
+
